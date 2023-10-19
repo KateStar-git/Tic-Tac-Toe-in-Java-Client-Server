@@ -1,0 +1,100 @@
+/* JavaFX CSS - Leave this comment until you have at least create one rule which uses -fx-Property */
+
+
+.root
+{
+    -fx-background-color: #00BBF9;
+    -fx-font-size: 16pt;
+    -fx-font-style: normal ;
+    -fx-font-weight: bold;
+    -fx-border-width: 3px;
+    -fx-border-color: #00F5D4;
+    -fx-animated: true;
+}
+
+.button
+{
+    -fx-text-fill: black;
+    -fx-border-width: 1px;
+    -fx-border-color: #00F5D4;
+    -fx-border-radius:2% ;
+    -fx-background-color: #2F0286;
+    -fx-font: bold italic 14pt 'sans-serif';
+    -fx-fill: #2F0286;
+
+}
+
+.winner-button
+{
+    -fx-text-fill: black;
+    -fx-border-width: 5px;
+    /*-fx-border-color: #B8D0E2;*/
+    -fx-border-color: #FF3131;
+    -fx-border-radius:2% ;
+    -fx-background-color: #2F0286;
+    -fx-font: bold italic 14pt 'sans-serif';
+    -fx-fill: #2F0286;
+
+}
+
+.my-button
+{
+    -fx-text-fill: #FEE440;
+    -fx-background-color: #2F0286;;
+    -fx-border-width:2px;
+    -fx-font: bold italic 14pt 'sans-serif';
+    -fx-animated: true;
+    -fx-border-radius: 5%;
+    -fx-border-color: #00F5D4;
+}
+
+.label
+{
+    -fx-text-fill: #FEE440;
+}
+
+.pane {
+    -fx-background-color: #00BBF9;
+    -fx-font-size: 16pt;
+    -fx-font-style: normal ;
+    -fx-font-weight: bold;
+    -fx-border-width: 3px;
+    -fx-border-color: #00F5D4;
+    -fx-animated: true;
+}
+.main-picture-pane {
+    -fx-background-color: #00BBF9;
+    -fx-font-size: 16pt;
+    -fx-font-style: normal ;
+    -fx-font-weight: bold;
+    -fx-border-width: 3px;
+    -fx-border-color: #00F5D4;
+    -fx-animated: true;
+
+}
+
+.my-hbox {
+    -fx-background-color: #00BBF9;
+    -fx-font-size: 16pt;
+    -fx-font-style: normal ;
+    -fx-font-weight: bold;
+    -fx-border-width: 3px;
+    -fx-animated: true;
+    -fx-padding: 2px;
+    -fx-spacing: 70;
+}
+.my-canvas-pane {
+    -fx-background-color: #00BBF9;
+    -fx-font-size: 16pt;
+    -fx-font-style: normal ;
+    -fx-font-weight: bold;
+    -fx-animated: true;
+}
+.my-grid-pane {
+    -fx-background-color: #00BBF9;
+    -fx-border-width: 3px;
+    -fx-animated: true;
+    -fx-hgap: 15;
+    -fx-vgap: 15;
+    -fx-padding: 25px,10px,5px,40px ;
+}
